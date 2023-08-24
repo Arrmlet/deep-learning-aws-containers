@@ -149,6 +149,7 @@ RUN pip install --upgrade pip --trusted-host pypi.org --trusted-host files.pytho
  && ln -s /opt/conda/bin/pip /usr/local/bin/pip3 \
  && pip install --no-cache-dir -U \
     "awscli<2" \
+    nvgpu \
     boto3 \
     click \
     "cryptography>3.2" \
